@@ -5,7 +5,7 @@ By Dialsoft LLC.
 
 ## Download
 
-**[Download PDFScout.exe](https://github.com/Dialsoft/pdfscout-releases/raw/main/PDFScout.exe)** (version 1.1.0, 482 KB)
+**[Download PDFScout.exe](https://github.com/Dialsoft/pdfscout-releases/raw/main/PDFScout.exe)** (version 1.2.0, 602 KB)
 
 Put it somewhere like your Desktop, Downloads or `C:\Tools` (not Program Files, so it can keep itself up to date) and double-click it.
 Windows may show a blue "Windows protected your PC" box the first time: click **More info**, then **Run anyway**.
@@ -18,20 +18,21 @@ Windows may show a blue "Windows protected your PC" box the first time: click **
 - Rotate sideways scans left or right
 - Print all pages, the current page or a range, fit to paper or actual size
 - Password-protected PDFs
+- Send the PDF to someone by email (straight through your own mail server, attached), or a note by text message, WhatsApp, Messenger or Teams
 - Keeps itself up to date automatically (checks at start and every 6 hours; you choose when to install)
 
-## What's new in 1.1.0
+## What's new in 1.2.0
 
-- New ribbon interface with Home, Settings, Share and Help tabs and colour icons for every function, matching the other Dialsoft tools.
-- Automatic updates: PDF Scout checks for a new version when it starts and every 6 hours. A yellow bar offers "Update now", the download is verified (SHA-256 checksum and version check), and PDF Scout swaps itself in and restarts with the same PDF open at the same page. You can turn automatic checks off on the Settings tab.
-- Settings tab (every change takes effect immediately): how new documents open (fit width, fit page or 100%), reopen the last PDF at the page you left, background colour, page shadows, print size, print quality and automatic page turning when printing.
-- Share tab: tell someone about PDF Scout by email, Gmail, Outlook.com, Facebook Messenger, WhatsApp, text message or Microsoft Teams, email the PDF you're reading as an attachment, or show it in File Explorer.
-- Release notes: Help > Release Notes lists what changed in every version, and after an update PDF Scout shows what's new automatically.
-- PDF Scout remembers its window size and position.
+- New Send window (Share tab): pick a saved person or type a new one, choose whether to send the PDF you're reading or a note about PDF Scout, and send it.
+- Email is sent by PDF Scout itself, straight through your own mail server, with the PDF attached. Set up the server once with Share > Email Server; your password is encrypted by Windows, and "Send test email" checks the settings.
+- Text messages: PDF Scout opens Windows Phone Link, types the person's number and the message, and presses Send for you (you can switch off the automatic Send). If TextDesk is running, the text goes through TextDesk instead. If anything goes wrong, the message is copied so you can finish in Phone Link.
+- WhatsApp, Facebook Messenger and Microsoft Teams open straight to a chat with the person, with the message typed. When you're sending the PDF it's copied, so you just press Ctrl+V in the chat. Gmail and Outlook.com open a new email already addressed to them.
+- People you send to are remembered (name, email, mobile number, Messenger name) and can be picked from the To box; "Forget person" removes one.
+- New Share tab layout with Send, Email, Text Message, WhatsApp, Messenger, Teams, Copy Link, Show in Folder and Email Server buttons.
 
 See [CHANGELOG.md](CHANGELOG.md) for every version.
 
-**Checksum (SHA-256):** `ad7ddf4172e8e8e1f0b6c30e6446d08a0afe10ada1dfd61b1b697fc3bdd7084f`
+**Checksum (SHA-256):** `33afd0fdbf8c38dad75bd12dd324b54db13e37655f1f448eb158df24e95a18a9`
 
 ---
 © 2026 Dialsoft LLC — Marc Frega, Wharton NJ. All rights reserved.
