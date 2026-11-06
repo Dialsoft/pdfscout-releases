@@ -1,0 +1,8 @@
+{
+  "version": "1.1.0",
+  "published": "2026-11-05",
+  "notes": "\u2022 New ribbon interface with Home, Settings, Share and Help tabs and colour icons for every function, matching the other Dialsoft tools.\n\u2022 Automatic updates: PDF Scout checks for a new version when it starts and every 6 hours. A yellow bar offers \"Update now\", the download is verified (SHA-256 checksum and version check), and PDF Scout swaps itself in and restarts with the same PDF open at the same page. You can turn automatic checks off on the Settings tab.\n\u2022 Settings tab (every change takes effect immediately): how new documents open (fit width, fit page or 100%), reopen the last PDF at the page you left, background colour, page shadows, print size, print quality and automatic page turning when printing.\n\u2022 Share tab: tell someone about PDF Scout by email, Gmail, Outlook.com, Facebook Messenger, WhatsApp, text message or Microsoft Teams, email the PDF you're reading as an attachment, or show it in File Explorer.\n\u2022 Release notes: Help > Release Notes lists what changed in every version, and after an update PDF Scout shows what's new automatically.\n\u2022 PDF Scout remembers its window size and position.",
+  "exe": "https://raw.githubusercontent.com/Dialsoft/pdfscout-releases/main/PDFScout.exe",
+  "sha256": "ad7ddf4172e8e8e1f0b6c30e6446d08a0afe10ada1dfd61b1b697fc3bdd7084f",
+  "size": 493568
+}
