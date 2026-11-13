@@ -1,8 +1,8 @@
 {
-  "version": "1.2.0",
-  "published": "2026-11-06",
-  "notes": "\u2022 New Send window (Share tab): pick a saved person or type a new one, choose whether to send the PDF you're reading or a note about PDF Scout, and send it.\n\u2022 Email is sent by PDF Scout itself, straight through your own mail server, with the PDF attached. Set up the server once with Share > Email Server; your password is encrypted by Windows, and \"Send test email\" checks the settings.\n\u2022 Text messages: PDF Scout opens Windows Phone Link, types the person's number and the message, and presses Send for you (you can switch off the automatic Send). If TextDesk is running, the text goes through TextDesk instead. If anything goes wrong, the message is copied so you can finish in Phone Link.\n\u2022 WhatsApp, Facebook Messenger and Microsoft Teams open straight to a chat with the person, with the message typed. When you're sending the PDF it's copied, so you just press Ctrl+V in the chat. Gmail and Outlook.com open a new email already addressed to them.\n\u2022 People you send to are remembered (name, email, mobile number, Messenger name) and can be picked from the To box; \"Forget person\" removes one.\n\u2022 New Share tab layout with Send, Email, Text Message, WhatsApp, Messenger, Teams, Copy Link, Show in Folder and Email Server buttons.",
+  "version": "1.3.0",
+  "published": "2026-11-13",
+  "notes": "\u2022 Set as default PDF app: a new button on the Settings tab makes PDF Scout the program that opens when you double-click a PDF. Windows 10 and 11 make you confirm the choice yourself, so PDF Scout adds itself to Windows' list of PDF programs, opens the right Windows screen and tells you exactly what to click. \"Default: yes / no\" next to the button shows the current state and updates by itself.\n\u2022 If you move PDFScout.exe to another folder, it repairs its link with Windows the next time you start it.\n\u2022 Compatibility fix: PDF Scout now starts on Windows 8.1 again (it was asking Windows for a function in a place where only Windows 10 and 11 keep it).\n\u2022 Spelling in the program now follows American English throughout.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/pdfscout-releases/main/PDFScout.exe",
-  "sha256": "33afd0fdbf8c38dad75bd12dd324b54db13e37655f1f448eb158df24e95a18a9",
-  "size": 616960
+  "sha256": "ecf6105bd4ee37fe1fc799486b7acb390275829ce446bb3d0c6512f64f5ca652",
+  "size": 629248
 }
