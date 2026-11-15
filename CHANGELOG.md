@@ -1,3 +1,12 @@
+## 1.4.0 (2026-11-14)
+- New page panel: a strip down the right side of the window shows a small picture of every page. Click a page to jump to it. Hide or show the panel with Page Panel on the Home or Organize tab, or press F4.
+- Rearrange pages: drag a page up or down in the page panel and drop it where you want it. A blue bar shows where it will land, the list scrolls by itself near the top and bottom, and Esc cancels.
+- New Organize tab: Move Up, Move Down, Move to Front and Move to Back for the selected page (Alt+Up, Alt+Down, Alt+Home, Alt+End), and Undo Move (Ctrl+Z) to take moves back one at a time.
+- Save (Ctrl+S) writes the new page order into the PDF; Save As (Ctrl+Shift+S) writes a new file and leaves the original alone. A * in the title bar means the new order hasn't been saved, and PDF Scout asks before closing, opening another PDF, sending or updating with unsaved changes.
+- Saving is careful: PDF Scout writes the new file next to the old one, has Windows read it back to check every page, and only then replaces the old file. Pictures, text, bookmarks and form fields stay exactly as they were. Only the order of the pages changes.
+- Printing follows the order on screen, including moves you haven't saved yet.
+- Password-protected PDFs can still be read and printed, but their pages can't be rearranged.
+
 ## 1.3.0 (2026-11-13)
 - Set as default PDF app: a new button on the Settings tab makes PDF Scout the program that opens when you double-click a PDF. Windows 10 and 11 make you confirm the choice yourself, so PDF Scout adds itself to Windows' list of PDF programs, opens the right Windows screen and tells you exactly what to click. "Default: yes / no" next to the button shows the current state and updates by itself.
 - If you move PDFScout.exe to another folder, it repairs its link with Windows the next time you start it.
