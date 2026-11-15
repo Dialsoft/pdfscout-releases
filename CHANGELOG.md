@@ -1,3 +1,8 @@
+## 1.4.1 (2026-11-15)
+- Fixed: the large help tooltip no longer pops up on top of the page panel. In 1.4.0 it appeared whenever the mouse rested on the panel and covered the pages, which made dragging look like it wasn't working. The help text now appears only when you point at the "Pages" heading at the top of the panel.
+- While you drag a page in the page panel, a see-through copy of the page now follows the mouse, along with the blue bar that shows where it will land.
+- The page panel has a "Pages — drag to reorder" heading.
+
 ## 1.4.0 (2026-11-14)
 - New page panel: a strip down the right side of the window shows a small picture of every page. Click a page to jump to it. Hide or show the panel with Page Panel on the Home or Organize tab, or press F4.
 - Rearrange pages: drag a page up or down in the page panel and drop it where you want it. A blue bar shows where it will land, the list scrolls by itself near the top and bottom, and Esc cancels.

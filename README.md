@@ -5,7 +5,7 @@ By Dialsoft LLC.
 
 ## Download
 
-**[Download PDFScout.exe](https://github.com/Dialsoft/pdfscout-releases/raw/main/PDFScout.exe)** (version 1.4.0, 744 KB)
+**[Download PDFScout.exe](https://github.com/Dialsoft/pdfscout-releases/raw/main/PDFScout.exe)** (version 1.4.1, 745 KB)
 
 Put it somewhere like your Desktop, Downloads or `C:\Tools` (not Program Files, so it can keep itself up to date) and double-click it.
 Windows may show a blue "Windows protected your PC" box the first time: click **More info**, then **Run anyway**.
@@ -24,19 +24,15 @@ Windows may show a blue "Windows protected your PC" box the first time: click **
 - Send the PDF to someone by email (straight through your own mail server, attached), or a note by text message, WhatsApp, Messenger or Teams
 - Keeps itself up to date automatically (checks at start and every 6 hours; you choose when to install)
 
-## What's new in 1.4.0
+## What's new in 1.4.1
 
-- New page panel: a strip down the right side of the window shows a small picture of every page. Click a page to jump to it. Hide or show the panel with Page Panel on the Home or Organize tab, or press F4.
-- Rearrange pages: drag a page up or down in the page panel and drop it where you want it. A blue bar shows where it will land, the list scrolls by itself near the top and bottom, and Esc cancels.
-- New Organize tab: Move Up, Move Down, Move to Front and Move to Back for the selected page (Alt+Up, Alt+Down, Alt+Home, Alt+End), and Undo Move (Ctrl+Z) to take moves back one at a time.
-- Save (Ctrl+S) writes the new page order into the PDF; Save As (Ctrl+Shift+S) writes a new file and leaves the original alone. A * in the title bar means the new order hasn't been saved, and PDF Scout asks before closing, opening another PDF, sending or updating with unsaved changes.
-- Saving is careful: PDF Scout writes the new file next to the old one, has Windows read it back to check every page, and only then replaces the old file. Pictures, text, bookmarks and form fields stay exactly as they were. Only the order of the pages changes.
-- Printing follows the order on screen, including moves you haven't saved yet.
-- Password-protected PDFs can still be read and printed, but their pages can't be rearranged.
+- Fixed: the large help tooltip no longer pops up on top of the page panel. In 1.4.0 it appeared whenever the mouse rested on the panel and covered the pages, which made dragging look like it wasn't working. The help text now appears only when you point at the "Pages" heading at the top of the panel.
+- While you drag a page in the page panel, a see-through copy of the page now follows the mouse, along with the blue bar that shows where it will land.
+- The page panel has a "Pages — drag to reorder" heading.
 
 See [CHANGELOG.md](CHANGELOG.md) for every version.
 
-**Checksum (SHA-256):** `9508fe586e3f3a444c383a64710f3fd505418bbfc6918081997536860ed3b2ea`
+**Checksum (SHA-256):** `654a40ba06cf9dcd79472a0811e7e8da718ba830b9d06e7170cc9d67881450eb`
 
 ---
 © 2026 Dialsoft LLC — Marc Frega, Wharton NJ. All rights reserved.
