@@ -1,3 +1,13 @@
+## 1.5.0 (2026-11-16)
+- PDF Scout now has its own PDF engine built in: PDFium, the open-source engine Google Chrome uses. Pages, page-panel pictures and printouts are drawn by it, so PDF Scout no longer depends on the PDF engine inside Windows and looks the same on every PC. It is still one portable EXE (now about 4.7 MB); the first time it runs it unpacks the engine into your user profile.
+- New: Find (Home tab, or Ctrl+F). Type a word or phrase and every match in the document is highlighted; Next and Previous (F3 / Shift+F3, or Enter / Shift+Enter) step through them.
+- New: select and copy text. Drag across text to select it, double-click to select a word, Ctrl+A to select everything, Ctrl+C to copy. Right-click a page for a menu with Copy, Select All and Find.
+- New: links work. Click a link inside a PDF to jump to the page it points to. A link to a web address shows you the real address and asks before opening your browser.
+- New: bookmarks. If a PDF has its own table of contents, click Bookmarks at the top of the side panel and click an entry to jump there. The part you're reading is highlighted.
+- The Page Panel button moved from the Home tab to the Organize tab to make room for Find (F4 still shows and hides the panel).
+- PDFium needs 64-bit Windows 10 or 11. On Windows 8.1, or if the engine can't be unpacked, PDF Scout uses the Windows engine as before: pages show and print, but Find, copy, links and bookmarks are off. Help > Diagnostic Report says which engine is in use.
+- Scanned documents are pictures of text, so there is nothing to find or copy in them unless they were saved as "searchable".
+
 ## 1.4.2 (2026-11-15)
 - New: Help tab > Diagnostic Report. If something doesn't work on your PC, do the thing that fails and then click it. PDF Scout saves a text file on your Desktop (and copies it to the clipboard) describing what it has been doing, so the problem can be tracked down. It contains nothing from inside your documents.
 - The page panel can no longer be left waiting behind the big pages: after each big page is drawn, a page-panel picture gets its turn.
