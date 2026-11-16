@@ -1,3 +1,12 @@
+## 1.6.0 (2026-11-16)
+- New: take pages from one PDF into another. Open each PDF in its own PDF Scout window (Organize tab > Second PDF opens another PDF beside the one you have and puts the two windows side by side). Then drag a page from one window's page panel and let go over the other window's page panel. A blue bar shows where it will land. It works in both directions.
+- Dragging a page across copies it: it stays in the PDF it came from. Hold Shift while you let go to move it instead (it is added there and deleted here).
+- New: Delete Page. Select a page and click Delete Page on the Organize tab, press Del, or right-click the page in the page panel. A PDF always keeps at least one page.
+- New: right-click a page in the page panel for a menu with Delete, the Move commands and Undo.
+- Undo (Ctrl+Z) now takes back deleted and brought-in pages as well as moves, one change at a time.
+- Nothing changes in a PDF file until you click Save in that window. When pages were deleted or brought in, the file is written out fresh, so a deleted page is really gone from the saved file, not just hidden. Use Save As if you want to keep the original too.
+- The PDF's own bookmarks and form fields are kept when you save. Pages that come from another PDF bring their pictures, text and links, but not that PDF's bookmarks or fillable-form behavior. Password-protected PDFs can't be changed or used as a source, as before.
+
 ## 1.5.1 (2026-11-16)
 - New: PDF Scout now comes two ways. PDFScout.exe is the portable copy, as before. PDFScout-Setup.exe is an installer: it adds PDF Scout to the Start menu (and the Desktop if you like), lists it under Windows "Installed apps" with an uninstaller, and adds it to "Open with" for PDFs.
 - The installer asks who PDF Scout is for. "Just me" needs no administrator password. "Everyone who uses this PC" installs into Program Files and asks Windows for an administrator's permission.

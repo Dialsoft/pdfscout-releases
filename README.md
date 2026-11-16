@@ -5,10 +5,10 @@ By Dialsoft LLC.
 
 ## Download
 
-PDF Scout 1.5.1 comes two ways. Both are the same program.
+PDF Scout 1.6.0 comes two ways. Both are the same program.
 
-- **[PDFScout-Setup.exe](https://github.com/Dialsoft/pdfscout-releases/raw/main/PDFScout-Setup.exe)** — the installer (7.0 MB). Adds PDF Scout to the Start menu and to Windows "Installed apps", with an uninstaller. It asks whether to install for **just you** (no administrator needed) or for **everyone who uses the PC** (asks for an administrator).
-- **[PDFScout.exe](https://github.com/Dialsoft/pdfscout-releases/raw/main/PDFScout.exe)** — the portable copy (4.5 MB). Nothing to install: put it somewhere like your Desktop, Downloads or `C:\Tools` (not Program Files, so it can keep itself up to date) and double-click it.
+- **[PDFScout-Setup.exe](https://github.com/Dialsoft/pdfscout-releases/raw/main/PDFScout-Setup.exe)** — the installer (7.1 MB). Adds PDF Scout to the Start menu and to Windows "Installed apps", with an uninstaller. It asks whether to install for **just you** (no administrator needed) or for **everyone who uses the PC** (asks for an administrator).
+- **[PDFScout.exe](https://github.com/Dialsoft/pdfscout-releases/raw/main/PDFScout.exe)** — the portable copy (4.6 MB). Nothing to install: put it somewhere like your Desktop, Downloads or `C:\Tools` (not Program Files, so it can keep itself up to date) and double-click it.
 
 Windows may show a blue "Windows protected your PC" box the first time: click **More info**, then **Run anyway**.
 
@@ -23,6 +23,8 @@ Windows may show a blue "Windows protected your PC" box the first time: click **
 - Ribbon with Home, Organize, Settings, Share and Help tabs, with color icons and detailed tooltips
 - Page panel: a small picture of every page down the right side; click one to jump to it
 - Rearrange pages: drag a page up or down in the page panel, then Save (or Save As to keep the original)
+- Delete pages: select a page and press Del, or right-click it in the page panel
+- Combine PDFs: open two PDFs in two PDF Scout windows and drag pages from one page panel into the other (drag copies, Shift+drag moves)
 - Continuous scrolling, zoom, Fit Width, Fit Page, Actual Size, Go to page
 - Rotate sideways scans left or right
 - Print all pages, the current page or a range, fit to paper or actual size
@@ -31,22 +33,22 @@ Windows may show a blue "Windows protected your PC" box the first time: click **
 - Send the PDF to someone by email (straight through your own mail server, attached), or a note by text message, WhatsApp, Messenger or Teams
 - Keeps itself up to date automatically (checks at start and every 6 hours; you choose when to install)
 
-## What's new in 1.5.1
+## What's new in 1.6.0
 
-- New: PDF Scout now comes two ways. PDFScout.exe is the portable copy, as before. PDFScout-Setup.exe is an installer: it adds PDF Scout to the Start menu (and the Desktop if you like), lists it under Windows "Installed apps" with an uninstaller, and adds it to "Open with" for PDFs.
-- The installer asks who PDF Scout is for. "Just me" needs no administrator password. "Everyone who uses this PC" installs into Program Files and asks Windows for an administrator's permission.
-- Installed copies keep themselves up to date too: Update now downloads the new installer, checks it, and runs it quietly. A copy installed for everyone asks for an administrator's permission each time it updates.
-- For IT: PDFScout-Setup.exe /S installs without showing anything (/ALLUSERS for everyone, /DESKTOP for a Desktop shortcut, /NOUPDATES to switch off automatic update checks on PCs you update yourself). Uninstall.exe /S removes it the same way.
-- An installed copy uses the PDF engine the installer put next to it, so nothing has to be unpacked the first time it runs.
-- Help > Diagnostic Report now says whether the copy is portable or installed.
-- If you use the portable copy, nothing changes for you.
+- New: take pages from one PDF into another. Open each PDF in its own PDF Scout window (Organize tab > Second PDF opens another PDF beside the one you have and puts the two windows side by side). Then drag a page from one window's page panel and let go over the other window's page panel. A blue bar shows where it will land. It works in both directions.
+- Dragging a page across copies it: it stays in the PDF it came from. Hold Shift while you let go to move it instead (it is added there and deleted here).
+- New: Delete Page. Select a page and click Delete Page on the Organize tab, press Del, or right-click the page in the page panel. A PDF always keeps at least one page.
+- New: right-click a page in the page panel for a menu with Delete, the Move commands and Undo.
+- Undo (Ctrl+Z) now takes back deleted and brought-in pages as well as moves, one change at a time.
+- Nothing changes in a PDF file until you click Save in that window. When pages were deleted or brought in, the file is written out fresh, so a deleted page is really gone from the saved file, not just hidden. Use Save As if you want to keep the original too.
+- The PDF's own bookmarks and form fields are kept when you save. Pages that come from another PDF bring their pictures, text and links, but not that PDF's bookmarks or fillable-form behavior. Password-protected PDFs can't be changed or used as a source, as before.
 
 See [CHANGELOG.md](CHANGELOG.md) for every version.
 
 **Checksums (SHA-256):**
 
-- PDFScout-Setup.exe: `6967b7756fbdaeec6b53cfe36750d1cf785d800ce3e9d81215ebdf374a92ff49`
-- PDFScout.exe: `313547ee4f370176dd269b280df81c1ccd0db3a0a7231a7fc0b20c3038d43b75`
+- PDFScout-Setup.exe: `62fc0c1a291097230b6b794f195fc9fb7374a3b0d543e160b81b0efb3c37f1cd`
+- PDFScout.exe: `60726b9ae45df552c0f6f16d4b00a75c299873e1fbacfa3dbbd1eea3e33a2db2`
 
 ## Open-source notice
 
