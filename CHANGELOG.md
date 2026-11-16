@@ -1,3 +1,12 @@
+## 1.5.1 (2026-11-16)
+- New: PDF Scout now comes two ways. PDFScout.exe is the portable copy, as before. PDFScout-Setup.exe is an installer: it adds PDF Scout to the Start menu (and the Desktop if you like), lists it under Windows "Installed apps" with an uninstaller, and adds it to "Open with" for PDFs.
+- The installer asks who PDF Scout is for. "Just me" needs no administrator password. "Everyone who uses this PC" installs into Program Files and asks Windows for an administrator's permission.
+- Installed copies keep themselves up to date too: Update now downloads the new installer, checks it, and runs it quietly. A copy installed for everyone asks for an administrator's permission each time it updates.
+- For IT: PDFScout-Setup.exe /S installs without showing anything (/ALLUSERS for everyone, /DESKTOP for a Desktop shortcut, /NOUPDATES to switch off automatic update checks on PCs you update yourself). Uninstall.exe /S removes it the same way.
+- An installed copy uses the PDF engine the installer put next to it, so nothing has to be unpacked the first time it runs.
+- Help > Diagnostic Report now says whether the copy is portable or installed.
+- If you use the portable copy, nothing changes for you.
+
 ## 1.5.0 (2026-11-16)
 - PDF Scout now has its own PDF engine built in: PDFium, the open-source engine Google Chrome uses. Pages, page-panel pictures and printouts are drawn by it, so PDF Scout no longer depends on the PDF engine inside Windows and looks the same on every PC. It is still one portable EXE (now about 4.7 MB); the first time it runs it unpacks the engine into your user profile.
 - New: Find (Home tab, or Ctrl+F). Type a word or phrase and every match in the document is highlighted; Next and Previous (F3 / Shift+F3, or Enter / Shift+Enter) step through them.
