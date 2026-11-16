@@ -1,3 +1,7 @@
+## 1.6.1 (2026-11-16)
+- New: User Guide. Help tab > User Guide opens the full PDF Scout manual in your web browser, with a picture for every step, and a link to a short video tour.
+- The built-in How to Use help (F1) is brought up to date: deleting pages, taking pages from one PDF into another, and the installer are now covered there too.
+
 ## 1.6.0 (2026-11-16)
 - New: take pages from one PDF into another. Open each PDF in its own PDF Scout window (Organize tab > Second PDF opens another PDF beside the one you have and puts the two windows side by side). Then drag a page from one window's page panel and let go over the other window's page panel. A blue bar shows where it will land. It works in both directions.
 - Dragging a page across copies it: it stays in the PDF it came from. Hold Shift while you let go to move it instead (it is added there and deleted here).
