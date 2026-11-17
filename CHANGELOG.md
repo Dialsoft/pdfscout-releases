@@ -1,3 +1,7 @@
+## 1.6.2 (2026-11-16)
+- Dragging a page to a second PDF Scout window: the page's picture now travels with the mouse all the way across, so you can see what you are carrying.
+- Help tab > User Guide now opens the guide on dialsoft.com, where the video tour plays right on the page.
+
 ## 1.6.1 (2026-11-16)
 - New: User Guide. Help tab > User Guide opens the full PDF Scout manual in your web browser, with a picture for every step, and a link to a short video tour.
 - The built-in How to Use help (F1) is brought up to date: deleting pages, taking pages from one PDF into another, and the installer are now covered there too.

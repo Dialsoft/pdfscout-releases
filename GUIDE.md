@@ -1,8 +1,8 @@
 # PDF Scout User Guide
 
-PDF Scout is a small, fast PDF reader for Windows from Dialsoft. It opens PDFs, finds and copies text, prints, and lets you move, delete and combine pages. This guide covers version 1.6.1.
+PDF Scout is a small, fast PDF reader for Windows from Dialsoft. It opens PDFs, finds and copies text, prints, and lets you move, delete and combine pages. This guide covers version 1.6.2.
 
-**Prefer to watch?** A short narrated video tour covers the same ground: [download PDFScout-Tour.mp4](https://github.com/Dialsoft/pdfscout-releases/raw/main/PDFScout-Tour.mp4).
+**Prefer to watch?** A three-minute narrated video tour covers the same ground, including an animated demonstration of combining two PDFs: [watch it on dialsoft.com](https://dialsoft.com/pdf-scout/#video).
 
 ## Contents
 
@@ -196,7 +196,7 @@ Any two PDF Scout windows work, however you opened them. Second PDF just saves y
 
 ### Step 2: drag a page across
 
-Press on a page in one window's side panel, drag it over the other window's side panel, and let go. A blue bar in the other window shows where the page will land.
+Press on a page in one window's side panel, drag it over the other window's side panel, and let go. A small picture of the page travels with the mouse, and a blue bar in the other window shows where the page will land.
 
 ![Dragging a page from the PDF on the right into the PDF on the left](guide/11-two-windows-dragging.png)
 
@@ -205,11 +205,16 @@ Press on a page in one window's side panel, drag it over the other window's side
 - It works in both directions.
 - If you let go over the other window's page area instead of its side panel, the page is added at the end.
 
-### Step 3: save
+### Step 3: save, or Save As to make a new PDF
 
-Click **Save** in each window whose pages changed. After a plain copy that's one window; after a Shift move it's both.
+You have two choices in the window that received the page:
 
-![After saving: the handbook on the left now includes the holiday schedule page](guide/12-two-windows-saved.png)
+- **Save As** writes the combined result to a **new PDF** with a name you choose. Both original files are left exactly as they were. This is the way to build a new document out of pages from others.
+- **Save** changes the PDF you have open.
+
+![After Save As: the combined PDF has a new name, and the status bar confirms the original was not changed](guide/12-two-windows-saved.png)
+
+After a Shift move, the window the page left has changes too, so save there as well. Until you do, nothing in that file has changed.
 
 **What comes across.** A page brought in from another PDF keeps its pictures, text, links and notes. It does not bring that PDF's bookmarks or fillable-form behavior. The PDF receiving the page keeps its own bookmarks.
 

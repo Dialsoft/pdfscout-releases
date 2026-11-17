@@ -5,7 +5,7 @@ By Dialsoft LLC.
 
 ## Download
 
-PDF Scout 1.6.1 comes two ways. Both are the same program.
+PDF Scout 1.6.2 comes two ways. Both are the same program.
 
 - **[PDFScout-Setup.exe](https://github.com/Dialsoft/pdfscout-releases/raw/main/PDFScout-Setup.exe)** — the installer (7.1 MB). Adds PDF Scout to the Start menu and to Windows "Installed apps", with an uninstaller. It asks whether to install for **just you** (no administrator needed) or for **everyone who uses the PC** (asks for an administrator).
 - **[PDFScout.exe](https://github.com/Dialsoft/pdfscout-releases/raw/main/PDFScout.exe)** — the portable copy (4.6 MB). Nothing to install: put it somewhere like your Desktop, Downloads or `C:\Tools` (not Program Files, so it can keep itself up to date) and double-click it.
@@ -16,8 +16,8 @@ Windows may show a blue "Windows protected your PC" box the first time: click **
 
 ## Learn PDF Scout
 
-- **[User Guide](GUIDE.md)** — the full manual, with a picture for every step. Also as a printable [PDF](https://github.com/Dialsoft/pdfscout-releases/raw/main/PDF-Scout-User-Guide.pdf).
-- **[Video tour](https://github.com/Dialsoft/pdfscout-releases/raw/main/PDFScout-Tour.mp4)** — a narrated walkthrough, under three minutes (MP4 download).
+- **[Video tour](https://dialsoft.com/pdf-scout/#video)** — three minutes, narrated, with an animated demonstration of dragging a page from one PDF into another and saving the result as a new PDF. Plays on dialsoft.com; also here as an [MP4 download](https://github.com/Dialsoft/pdfscout-releases/raw/main/PDFScout-Tour.mp4).
+- **[User Guide](https://dialsoft.com/pdf-scout/manual/)** — the full manual, with a picture for every step. Also [on this page](GUIDE.md) and as a printable [PDF](https://github.com/Dialsoft/pdfscout-releases/raw/main/PDF-Scout-User-Guide.pdf).
 
 ## What it does
 
@@ -38,17 +38,17 @@ Windows may show a blue "Windows protected your PC" box the first time: click **
 - Send the PDF to someone by email (straight through your own mail server, attached), or a note by text message, WhatsApp, Messenger or Teams
 - Keeps itself up to date automatically (checks at start and every 6 hours; you choose when to install)
 
-## What's new in 1.6.1
+## What's new in 1.6.2
 
-- New: User Guide. Help tab > User Guide opens the full PDF Scout manual in your web browser, with a picture for every step, and a link to a short video tour.
-- The built-in How to Use help (F1) is brought up to date: deleting pages, taking pages from one PDF into another, and the installer are now covered there too.
+- Dragging a page to a second PDF Scout window: the page's picture now travels with the mouse all the way across, so you can see what you are carrying.
+- Help tab > User Guide now opens the guide on dialsoft.com, where the video tour plays right on the page.
 
 See [CHANGELOG.md](CHANGELOG.md) for every version.
 
 **Checksums (SHA-256):**
 
-- PDFScout-Setup.exe: `9c6f7d3a9dccaf0b04936c792b272d0072635799c325d4f5cb35eb278e2cddd9`
-- PDFScout.exe: `7b7b9e7ddbfb6d29c1a6905ffbf5b472bb1495991a4a4e6849f2a0d4b4eb290a`
+- PDFScout-Setup.exe: `70a1d948c5019b98d21ba4725f3d2b6c816e1d1bd0efe1462e9d2891cb42e5d2`
+- PDFScout.exe: `7d63ac2abca3af9b3969fc5716f7c2ba7b9a851dd967ece6cb5e0ddce57187a6`
 
 ## Open-source notice
 

@@ -1,11 +1,11 @@
 {
-  "version": "1.6.1",
+  "version": "1.6.2",
   "published": "2026-11-16",
-  "notes": "\u2022 New: User Guide. Help tab > User Guide opens the full PDF Scout manual in your web browser, with a picture for every step, and a link to a short video tour.\n\u2022 The built-in How to Use help (F1) is brought up to date: deleting pages, taking pages from one PDF into another, and the installer are now covered there too.",
+  "notes": "\u2022 Dragging a page to a second PDF Scout window: the page's picture now travels with the mouse all the way across, so you can see what you are carrying.\n\u2022 Help tab > User Guide now opens the guide on dialsoft.com, where the video tour plays right on the page.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/pdfscout-releases/main/PDFScout.exe",
-  "sha256": "7b7b9e7ddbfb6d29c1a6905ffbf5b472bb1495991a4a4e6849f2a0d4b4eb290a",
-  "size": 4798464,
+  "sha256": "7d63ac2abca3af9b3969fc5716f7c2ba7b9a851dd967ece6cb5e0ddce57187a6",
+  "size": 4801024,
   "setup": "https://raw.githubusercontent.com/Dialsoft/pdfscout-releases/main/PDFScout-Setup.exe",
-  "setup_sha256": "9c6f7d3a9dccaf0b04936c792b272d0072635799c325d4f5cb35eb278e2cddd9",
-  "setup_size": 7398177
+  "setup_sha256": "70a1d948c5019b98d21ba4725f3d2b6c816e1d1bd0efe1462e9d2891cb42e5d2",
+  "setup_size": 7398304
 }
