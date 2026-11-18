@@ -1,3 +1,10 @@
+## 1.6.3 (2026-11-17)
+- New: select several pages at once in the page panel, the way File Explorer does. Ctrl+click adds a page to the selection (Ctrl+click it again to take it out), Shift+click selects every page from the last one you clicked, and Ctrl+A (after clicking a page in the panel) selects them all. Esc goes back to one page.
+- Drag any selected page and they all move together, in order. A small number on the page you're dragging shows how many are coming along.
+- Several pages can be taken into a second PDF Scout window in one drag: copied, or moved with Shift. They arrive together, in order, and stay selected.
+- Delete Page, Move Up, Move Down, Move to Front, Move to Back and the right-click menu now work on all the selected pages. A PDF still always keeps at least one page.
+- Undo (Ctrl+Z) takes back a change to several pages in one step.
+
 ## 1.6.2 (2026-11-16)
 - Dragging a page to a second PDF Scout window: the page's picture now travels with the mouse all the way across, so you can see what you are carrying.
 - Help tab > User Guide now opens the guide on dialsoft.com, where the video tour plays right on the page.

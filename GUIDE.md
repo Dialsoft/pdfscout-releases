@@ -1,6 +1,6 @@
 # PDF Scout User Guide
 
-PDF Scout is a small, fast PDF reader for Windows from Dialsoft. It opens PDFs, finds and copies text, prints, and lets you move, delete and combine pages. This guide covers version 1.6.2.
+PDF Scout is a small, fast PDF reader for Windows from Dialsoft. It opens PDFs, finds and copies text, prints, and lets you move, delete and combine pages. This guide covers version 1.6.3.
 
 **Prefer to watch?** A three-minute narrated video tour covers the same ground, including an animated demonstration of combining two PDFs: [watch it on dialsoft.com](https://dialsoft.com/pdf-scout/#video).
 
@@ -119,7 +119,7 @@ Capital and small letters are treated the same.
 - **Drag across text** to select it. It turns blue.
 - **Double-click** a word to select just that word.
 - **Shift+click** extends the selection to where you clicked.
-- **Ctrl+A** selects all the text in the document.
+- **Ctrl+A** selects all the text in the document. (If you last clicked in the side panel, Ctrl+A selects all the pages there instead; click on the page first.)
 - **Ctrl+C** copies what's selected, ready to paste into an email or document.
 
 Right-click a page for a small menu with **Copy**, **Select All** and **Find**.
@@ -164,9 +164,30 @@ After a move, the status bar says what happened and a star (`*`) appears in fron
 
 ![After the move: a star in the title bar and a message in the status bar](guide/08-moved.png)
 
+### Working with several pages at once
+
+You can select several pages in the side panel and then move, delete or copy them all together. It works the way selecting files does in File Explorer:
+
+| To select | Do this |
+|---|---|
+| One page | Click it. |
+| More pages, one at a time | Hold **Ctrl** and click each one. Ctrl+click a selected page again to take it out. |
+| A run of pages | Click the first one, then hold **Shift** and click the last one. Every page in between is selected too. |
+| Every page | Click any page in the side panel, then press **Ctrl+A**. |
+
+Selected pages are highlighted in blue, and the status bar says how many there are. Press **Esc** to go back to one page.
+
+![Pages 2 and 4 selected with Ctrl+click](guide/18-multi-selected.png)
+
+With several pages selected:
+
+- **Drag any of them** and they all move together, in their order. A small number on the page you're dragging shows how many are coming along.
+- **Del**, **Delete Page**, the **Move** buttons and the right-click menu work on all of them.
+- **Ctrl+Z** takes the whole change back in one step.
+
 ### Deleting a page
 
-Select the page in the side panel, then do any of these:
+Select the page in the side panel (or several pages, as above), then do any of these:
 
 - Press **Del**.
 - Click **Delete Page** on the Organize tab.
@@ -178,7 +199,7 @@ A PDF always keeps at least one page, so the last page can't be deleted.
 
 ### Undo
 
-**Undo** on the Organize tab, or **Ctrl+Z**, takes back the last change: a move, a deleted page, or a page you brought in from another PDF. Click it again to take back the change before that, all the way to how the PDF was when you opened or last saved it.
+**Undo** on the Organize tab, or **Ctrl+Z**, takes back the last change: a move, deleted pages, or pages you brought in from another PDF. A change to several pages at once is taken back in one step. Click it again to take back the change before that, all the way to how the PDF was when you opened or last saved it.
 
 Undo only works on changes that haven't been saved.
 
@@ -204,6 +225,9 @@ Press on a page in one window's side panel, drag it over the other window's side
 - **Hold Shift while you let go to move it instead.** It is added to the other PDF and deleted from the one it came from.
 - It works in both directions.
 - If you let go over the other window's page area instead of its side panel, the page is added at the end.
+- **To take several pages at once**, select them first with Ctrl+click, Shift+click or Ctrl+A (see section 7), then drag any one of them. They arrive together, in order, and stay selected in the other window so you can see what came in.
+
+![Two pages of the holiday schedule being dragged into the handbook together; the 2 on the page shows how many are coming](guide/19-multi-dragging.png)
 
 ### Step 3: save, or Save As to make a new PDF
 
@@ -302,7 +326,6 @@ A copy installed for everyone on the PC asks for an administrator's permission e
 | Ctrl+F | Find |
 | F3 / Shift+F3 | Next / previous match |
 | Ctrl+C | Copy the selected text |
-| Ctrl+A | Select all the text |
 | Ctrl+G | Go to a page number |
 | Home / End | First / last page |
 | Left / Right arrow | Previous / next page |
@@ -313,9 +336,13 @@ A copy installed for everyone on the PC asks for an administrator's permission e
 | Ctrl+2 | Fit width |
 | Ctrl+L / Ctrl+R | Rotate left / right |
 | F4 | Show or hide the side panel |
-| Alt+Up / Alt+Down | Move the selected page earlier / later |
-| Alt+Home / Alt+End | Move the selected page to the front / back |
-| Del | Delete the selected page |
+| Alt+Up / Alt+Down | Move the selected page(s) earlier / later |
+| Alt+Home / Alt+End | Move the selected page(s) to the front / back |
+| Del | Delete the selected page or pages |
+| Ctrl+click a page | Add it to the selection, or take it out (side panel) |
+| Shift+click a page | Select every page from the last one clicked (side panel) |
+| Ctrl+A | Select all the text; after clicking in the side panel, select all the pages |
+| Esc | Go back to one selected page; close the Find bar |
 | Ctrl+Z | Undo the last page change |
 | F1 | The built-in How to Use help |
 

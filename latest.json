@@ -1,11 +1,11 @@
 {
-  "version": "1.6.2",
-  "published": "2026-11-16",
-  "notes": "\u2022 Dragging a page to a second PDF Scout window: the page's picture now travels with the mouse all the way across, so you can see what you are carrying.\n\u2022 Help tab > User Guide now opens the guide on dialsoft.com, where the video tour plays right on the page.",
+  "version": "1.6.3",
+  "published": "2026-11-17",
+  "notes": "\u2022 New: select several pages at once in the page panel, the way File Explorer does. Ctrl+click adds a page to the selection (Ctrl+click it again to take it out), Shift+click selects every page from the last one you clicked, and Ctrl+A (after clicking a page in the panel) selects them all. Esc goes back to one page.\n\u2022 Drag any selected page and they all move together, in order. A small number on the page you're dragging shows how many are coming along.\n\u2022 Several pages can be taken into a second PDF Scout window in one drag: copied, or moved with Shift. They arrive together, in order, and stay selected.\n\u2022 Delete Page, Move Up, Move Down, Move to Front, Move to Back and the right-click menu now work on all the selected pages. A PDF still always keeps at least one page.\n\u2022 Undo (Ctrl+Z) takes back a change to several pages in one step.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/pdfscout-releases/main/PDFScout.exe",
-  "sha256": "7d63ac2abca3af9b3969fc5716f7c2ba7b9a851dd967ece6cb5e0ddce57187a6",
-  "size": 4801024,
+  "sha256": "66df55fd8a322408f32b2633da5da524ca444190ccab8679d71d9651f0b52e54",
+  "size": 4833792,
   "setup": "https://raw.githubusercontent.com/Dialsoft/pdfscout-releases/main/PDFScout-Setup.exe",
-  "setup_sha256": "70a1d948c5019b98d21ba4725f3d2b6c816e1d1bd0efe1462e9d2891cb42e5d2",
-  "setup_size": 7398304
+  "setup_sha256": "1ac76a7367581609504a348a2307855f34522890a378cb70cae100ecd601fc36",
+  "setup_size": 7411382
 }

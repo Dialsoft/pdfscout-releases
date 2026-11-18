@@ -5,7 +5,7 @@ By Dialsoft LLC.
 
 ## Download
 
-PDF Scout 1.6.2 comes two ways. Both are the same program.
+PDF Scout 1.6.3 comes two ways. Both are the same program.
 
 - **[PDFScout-Setup.exe](https://github.com/Dialsoft/pdfscout-releases/raw/main/PDFScout-Setup.exe)** — the installer (7.1 MB). Adds PDF Scout to the Start menu and to Windows "Installed apps", with an uninstaller. It asks whether to install for **just you** (no administrator needed) or for **everyone who uses the PC** (asks for an administrator).
 - **[PDFScout.exe](https://github.com/Dialsoft/pdfscout-releases/raw/main/PDFScout.exe)** — the portable copy (4.6 MB). Nothing to install: put it somewhere like your Desktop, Downloads or `C:\Tools` (not Program Files, so it can keep itself up to date) and double-click it.
@@ -16,7 +16,7 @@ Windows may show a blue "Windows protected your PC" box the first time: click **
 
 ## Learn PDF Scout
 
-- **[Video tour](https://dialsoft.com/pdf-scout/#video)** — three minutes, narrated, with an animated demonstration of dragging a page from one PDF into another and saving the result as a new PDF. Plays on dialsoft.com; also here as an [MP4 download](https://github.com/Dialsoft/pdfscout-releases/raw/main/PDFScout-Tour.mp4).
+- **[Video tour](https://dialsoft.com/pdf-scout/#video)** — a little over three minutes, narrated, with an animated demonstration of dragging a page from one PDF into another and saving the result as a new PDF. Plays on dialsoft.com; also here as an [MP4 download](https://github.com/Dialsoft/pdfscout-releases/raw/main/PDFScout-Tour.mp4).
 - **[User Guide](https://dialsoft.com/pdf-scout/manual/)** — the full manual, with a picture for every step. Also [on this page](GUIDE.md) and as a printable [PDF](https://github.com/Dialsoft/pdfscout-releases/raw/main/PDF-Scout-User-Guide.pdf).
 
 ## What it does
@@ -29,6 +29,7 @@ Windows may show a blue "Windows protected your PC" box the first time: click **
 - Page panel: a small picture of every page down the right side; click one to jump to it
 - Rearrange pages: drag a page up or down in the page panel, then Save (or Save As to keep the original)
 - Delete pages: select a page and press Del, or right-click it in the page panel
+- Select several pages with Ctrl+click or Shift+click (or Ctrl+A) and move, delete or copy them all at once
 - Combine PDFs: open two PDFs in two PDF Scout windows and drag pages from one page panel into the other (drag copies, Shift+drag moves)
 - Continuous scrolling, zoom, Fit Width, Fit Page, Actual Size, Go to page
 - Rotate sideways scans left or right
@@ -38,17 +39,20 @@ Windows may show a blue "Windows protected your PC" box the first time: click **
 - Send the PDF to someone by email (straight through your own mail server, attached), or a note by text message, WhatsApp, Messenger or Teams
 - Keeps itself up to date automatically (checks at start and every 6 hours; you choose when to install)
 
-## What's new in 1.6.2
+## What's new in 1.6.3
 
-- Dragging a page to a second PDF Scout window: the page's picture now travels with the mouse all the way across, so you can see what you are carrying.
-- Help tab > User Guide now opens the guide on dialsoft.com, where the video tour plays right on the page.
+- New: select several pages at once in the page panel, the way File Explorer does. Ctrl+click adds a page to the selection (Ctrl+click it again to take it out), Shift+click selects every page from the last one you clicked, and Ctrl+A (after clicking a page in the panel) selects them all. Esc goes back to one page.
+- Drag any selected page and they all move together, in order. A small number on the page you're dragging shows how many are coming along.
+- Several pages can be taken into a second PDF Scout window in one drag: copied, or moved with Shift. They arrive together, in order, and stay selected.
+- Delete Page, Move Up, Move Down, Move to Front, Move to Back and the right-click menu now work on all the selected pages. A PDF still always keeps at least one page.
+- Undo (Ctrl+Z) takes back a change to several pages in one step.
 
 See [CHANGELOG.md](CHANGELOG.md) for every version.
 
 **Checksums (SHA-256):**
 
-- PDFScout-Setup.exe: `70a1d948c5019b98d21ba4725f3d2b6c816e1d1bd0efe1462e9d2891cb42e5d2`
-- PDFScout.exe: `7d63ac2abca3af9b3969fc5716f7c2ba7b9a851dd967ece6cb5e0ddce57187a6`
+- PDFScout-Setup.exe: `1ac76a7367581609504a348a2307855f34522890a378cb70cae100ecd601fc36`
+- PDFScout.exe: `66df55fd8a322408f32b2633da5da524ca444190ccab8679d71d9651f0b52e54`
 
 ## Open-source notice
 
