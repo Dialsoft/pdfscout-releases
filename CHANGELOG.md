@@ -1,3 +1,10 @@
+## 1.7.0 (2026-11-22)
+- New: Quick Read. Press F11 (or Organize tab > Quick Read, or right-click the page) and flip through the PDFs in a folder the way the Photos app flips through pictures. The Right arrow key opens the next PDF in the same folder and the Left arrow key the previous one; or click the round arrows at the edges of the page.
+- In Quick Read the ribbon and the page panel step aside so the page gets the whole window, and each PDF is shown fitted to the window. Up / Down, Page Up / Page Down and the mouse wheel still move through the pages. Esc, F11 or the Exit button brings everything back the way it was.
+- Outside Quick Read, Ctrl+Right and Ctrl+Left jump to the next and previous PDF in the folder too.
+- The PDFs come in name order, the way File Explorer sorts names. The status bar shows where you are, such as "PDF 3 of 12 in this folder".
+- Pages that are narrower than the window (Fit Page, or zoomed out) now sit in the middle of the window instead of at its left edge.
+
 ## 1.6.3 (2026-11-17)
 - New: select several pages at once in the page panel, the way File Explorer does. Ctrl+click adds a page to the selection (Ctrl+click it again to take it out), Shift+click selects every page from the last one you clicked, and Ctrl+A (after clicking a page in the panel) selects them all. Esc goes back to one page.
 - Drag any selected page and they all move together, in order. A small number on the page you're dragging shows how many are coming along.

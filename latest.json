@@ -1,11 +1,11 @@
 {
-  "version": "1.6.3",
-  "published": "2026-11-17",
-  "notes": "\u2022 New: select several pages at once in the page panel, the way File Explorer does. Ctrl+click adds a page to the selection (Ctrl+click it again to take it out), Shift+click selects every page from the last one you clicked, and Ctrl+A (after clicking a page in the panel) selects them all. Esc goes back to one page.\n\u2022 Drag any selected page and they all move together, in order. A small number on the page you're dragging shows how many are coming along.\n\u2022 Several pages can be taken into a second PDF Scout window in one drag: copied, or moved with Shift. They arrive together, in order, and stay selected.\n\u2022 Delete Page, Move Up, Move Down, Move to Front, Move to Back and the right-click menu now work on all the selected pages. A PDF still always keeps at least one page.\n\u2022 Undo (Ctrl+Z) takes back a change to several pages in one step.",
+  "version": "1.7.0",
+  "published": "2026-11-22",
+  "notes": "\u2022 New: Quick Read. Press F11 (or Organize tab > Quick Read, or right-click the page) and flip through the PDFs in a folder the way the Photos app flips through pictures. The Right arrow key opens the next PDF in the same folder and the Left arrow key the previous one; or click the round arrows at the edges of the page.\n\u2022 In Quick Read the ribbon and the page panel step aside so the page gets the whole window, and each PDF is shown fitted to the window. Up / Down, Page Up / Page Down and the mouse wheel still move through the pages. Esc, F11 or the Exit button brings everything back the way it was.\n\u2022 Outside Quick Read, Ctrl+Right and Ctrl+Left jump to the next and previous PDF in the folder too.\n\u2022 The PDFs come in name order, the way File Explorer sorts names. The status bar shows where you are, such as \"PDF 3 of 12 in this folder\".\n\u2022 Pages that are narrower than the window (Fit Page, or zoomed out) now sit in the middle of the window instead of at its left edge.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/pdfscout-releases/main/PDFScout.exe",
-  "sha256": "66df55fd8a322408f32b2633da5da524ca444190ccab8679d71d9651f0b52e54",
-  "size": 4833792,
+  "sha256": "0bec0faf4f1d5d6bfbf107500ce7d5ea577ae2c059092388b1cf0fb0aa5402bb",
+  "size": 4850688,
   "setup": "https://raw.githubusercontent.com/Dialsoft/pdfscout-releases/main/PDFScout-Setup.exe",
-  "setup_sha256": "1ac76a7367581609504a348a2307855f34522890a378cb70cae100ecd601fc36",
-  "setup_size": 7411382
+  "setup_sha256": "981504f5f69ca45f26af0c939da9bfdf4634491cac40e625afd427363ba91577",
+  "setup_size": 7413994
 }

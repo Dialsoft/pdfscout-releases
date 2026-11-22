@@ -1,6 +1,6 @@
 # PDF Scout User Guide
 
-PDF Scout is a small, fast PDF reader for Windows from Dialsoft. It opens PDFs, finds and copies text, prints, and lets you move, delete and combine pages. This guide covers version 1.6.3.
+PDF Scout is a small, fast PDF reader for Windows from Dialsoft. It opens PDFs, finds and copies text, prints, and lets you move, delete and combine pages. This guide covers version 1.7.0.
 
 **Prefer to watch?** A three-minute narrated video tour covers the same ground, including an animated demonstration of combining two PDFs: [watch it on dialsoft.com](https://dialsoft.com/pdf-scout/#video).
 
@@ -89,6 +89,27 @@ If the PDF has a password, PDF Scout asks for it.
 - **Fit Width** fills the window from side to side. **Fit Page** shows one whole page. **Actual Size** shows the real paper size.
 
 **Rotate.** **Rotate Left** and **Rotate Right** turn every page a quarter turn, which is handy for sideways scans. This only changes how the PDF is shown and printed in PDF Scout. The file itself is not changed.
+
+### Quick Read: flipping through a folder of PDFs
+
+Quick Read lets you go through the PDFs in a folder one after another, the way the Photos app goes through pictures. It's the fast way to look through a folder of invoices, scans or statements.
+
+1. Open any PDF in the folder.
+2. Press **F11**. (Or click **Quick Read** on the Organize tab, or right-click the page and choose Quick Read.)
+3. Press the **Right arrow** key for the next PDF in the folder, and the **Left arrow** key for the previous one. You can also click the round arrows at the left and right edges of the page.
+4. Press **Esc** (or F11 again, or click **Exit Quick Read** in the top right corner) when you're done. Everything comes back the way it was.
+
+![Quick Read: the page fills the window, with an arrow at the edge for the next PDF](guide/20-quick-read.png)
+
+While you're in Quick Read:
+
+- The ribbon and the side panel step aside so the page gets the whole window, and each PDF is shown fitted to the window.
+- **Up / Down**, **Page Up / Page Down** and the mouse wheel still move through the pages of the PDF you're looking at.
+- The status bar shows where you are, such as "PDF 3 of 12 in this folder".
+- The PDFs come in name order, the way File Explorer sorts names (so "Invoice 2" comes before "Invoice 10").
+- Pages can't be moved or deleted. Leave Quick Read first.
+
+**Without Quick Read**, **Ctrl+Right** and **Ctrl+Left** jump to the next and previous PDF in the folder too.
 
 **Bookmarks.** Some PDFs have their own table of contents. Click **Bookmarks** at the top of the side panel, then click a heading to jump to that part of the document. The part you're reading is highlighted. If the word Bookmarks is gray, this PDF doesn't have any.
 
@@ -336,13 +357,16 @@ A copy installed for everyone on the PC asks for an administrator's permission e
 | Ctrl+2 | Fit width |
 | Ctrl+L / Ctrl+R | Rotate left / right |
 | F4 | Show or hide the side panel |
+| F11 | Quick Read on or off |
+| Left / Right arrow in Quick Read | Previous / next PDF in the folder |
+| Ctrl+Left / Ctrl+Right | Previous / next PDF in the folder (anytime) |
 | Alt+Up / Alt+Down | Move the selected page(s) earlier / later |
 | Alt+Home / Alt+End | Move the selected page(s) to the front / back |
 | Del | Delete the selected page or pages |
 | Ctrl+click a page | Add it to the selection, or take it out (side panel) |
 | Shift+click a page | Select every page from the last one clicked (side panel) |
 | Ctrl+A | Select all the text; after clicking in the side panel, select all the pages |
-| Esc | Go back to one selected page; close the Find bar |
+| Esc | Go back to one selected page; close the Find bar; leave Quick Read |
 | Ctrl+Z | Undo the last page change |
 | F1 | The built-in How to Use help |
 

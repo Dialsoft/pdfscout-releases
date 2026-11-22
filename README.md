@@ -5,7 +5,7 @@ By Dialsoft LLC.
 
 ## Download
 
-PDF Scout 1.6.3 comes two ways. Both are the same program.
+PDF Scout 1.7.0 comes two ways. Both are the same program.
 
 - **[PDFScout-Setup.exe](https://github.com/Dialsoft/pdfscout-releases/raw/main/PDFScout-Setup.exe)** — the installer (7.1 MB). Adds PDF Scout to the Start menu and to Windows "Installed apps", with an uninstaller. It asks whether to install for **just you** (no administrator needed) or for **everyone who uses the PC** (asks for an administrator).
 - **[PDFScout.exe](https://github.com/Dialsoft/pdfscout-releases/raw/main/PDFScout.exe)** — the portable copy (4.6 MB). Nothing to install: put it somewhere like your Desktop, Downloads or `C:\Tools` (not Program Files, so it can keep itself up to date) and double-click it.
@@ -28,6 +28,7 @@ Windows may show a blue "Windows protected your PC" box the first time: click **
 - Ribbon with Home, Organize, Settings, Share and Help tabs, with color icons and detailed tooltips
 - Page panel: a small picture of every page down the right side; click one to jump to it
 - Rearrange pages: drag a page up or down in the page panel, then Save (or Save As to keep the original)
+- Quick Read (F11): flip through a folder's PDFs with the Left and Right arrow keys, like the Photos app
 - Delete pages: select a page and press Del, or right-click it in the page panel
 - Select several pages with Ctrl+click or Shift+click (or Ctrl+A) and move, delete or copy them all at once
 - Combine PDFs: open two PDFs in two PDF Scout windows and drag pages from one page panel into the other (drag copies, Shift+drag moves)
@@ -39,20 +40,20 @@ Windows may show a blue "Windows protected your PC" box the first time: click **
 - Send the PDF to someone by email (straight through your own mail server, attached), or a note by text message, WhatsApp, Messenger or Teams
 - Keeps itself up to date automatically (checks at start and every 6 hours; you choose when to install)
 
-## What's new in 1.6.3
+## What's new in 1.7.0
 
-- New: select several pages at once in the page panel, the way File Explorer does. Ctrl+click adds a page to the selection (Ctrl+click it again to take it out), Shift+click selects every page from the last one you clicked, and Ctrl+A (after clicking a page in the panel) selects them all. Esc goes back to one page.
-- Drag any selected page and they all move together, in order. A small number on the page you're dragging shows how many are coming along.
-- Several pages can be taken into a second PDF Scout window in one drag: copied, or moved with Shift. They arrive together, in order, and stay selected.
-- Delete Page, Move Up, Move Down, Move to Front, Move to Back and the right-click menu now work on all the selected pages. A PDF still always keeps at least one page.
-- Undo (Ctrl+Z) takes back a change to several pages in one step.
+- New: Quick Read. Press F11 (or Organize tab > Quick Read, or right-click the page) and flip through the PDFs in a folder the way the Photos app flips through pictures. The Right arrow key opens the next PDF in the same folder and the Left arrow key the previous one; or click the round arrows at the edges of the page.
+- In Quick Read the ribbon and the page panel step aside so the page gets the whole window, and each PDF is shown fitted to the window. Up / Down, Page Up / Page Down and the mouse wheel still move through the pages. Esc, F11 or the Exit button brings everything back the way it was.
+- Outside Quick Read, Ctrl+Right and Ctrl+Left jump to the next and previous PDF in the folder too.
+- The PDFs come in name order, the way File Explorer sorts names. The status bar shows where you are, such as "PDF 3 of 12 in this folder".
+- Pages that are narrower than the window (Fit Page, or zoomed out) now sit in the middle of the window instead of at its left edge.
 
 See [CHANGELOG.md](CHANGELOG.md) for every version.
 
 **Checksums (SHA-256):**
 
-- PDFScout-Setup.exe: `1ac76a7367581609504a348a2307855f34522890a378cb70cae100ecd601fc36`
-- PDFScout.exe: `66df55fd8a322408f32b2633da5da524ca444190ccab8679d71d9651f0b52e54`
+- PDFScout-Setup.exe: `981504f5f69ca45f26af0c939da9bfdf4634491cac40e625afd427363ba91577`
+- PDFScout.exe: `0bec0faf4f1d5d6bfbf107500ce7d5ea577ae2c059092388b1cf0fb0aa5402bb`
 
 ## Open-source notice
 
