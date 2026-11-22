@@ -1,3 +1,8 @@
+## 1.8.3 (2026-11-22)
+- New: choose another folder to flip through without leaving Quick Read. Click the folder label at the bottom of the page (it now says "Change folder…"), or press F, pick a folder, and the first PDF in that folder appears right away. The arrows then go through the new folder.
+- The folder text in the Home tab's Quick Read group does the same when clicked, also when no PDF is open yet.
+- To see the current PDF in File Explorer, click the file label at the top of the page in Quick Read.
+
 ## 1.8.2 (2026-11-22)
 - New in Quick Read: Rotate Left, Rotate Right and Print buttons at the top of the page, next to the file buttons (also Ctrl+L, Ctrl+R, Ctrl+P and the right-click menu). Rotating turns a sideways scan so you can read or print it; it does not change the file, and the next PDF starts unrotated.
 - New: the date and size of the PDF you are looking at are shown at the top. On the Home tab, the Quick Read group has a new line, "This file:", with the date the file was last changed and its size. In Quick Read, a label at the top of the page shows the file's name, date and size, and changes with every PDF you flip to.

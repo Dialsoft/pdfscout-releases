@@ -5,7 +5,7 @@ By Dialsoft LLC.
 
 ## Download
 
-PDF Scout 1.8.2 comes two ways. Both are the same program.
+PDF Scout 1.8.3 comes two ways. Both are the same program.
 
 - **[PDFScout-Setup.exe](https://github.com/Dialsoft/pdfscout-releases/raw/main/PDFScout-Setup.exe)** — the installer (7.1 MB). Adds PDF Scout to the Start menu and to Windows "Installed apps", with an uninstaller. It asks whether to install for **just you** (no administrator needed) or for **everyone who uses the PC** (asks for an administrator).
 - **[PDFScout.exe](https://github.com/Dialsoft/pdfscout-releases/raw/main/PDFScout.exe)** — the portable copy (4.7 MB). Nothing to install: put it somewhere like your Desktop, Downloads or `C:\Tools` (not Program Files, so it can keep itself up to date) and double-click it.
@@ -40,11 +40,11 @@ Windows may show a blue "Windows protected your PC" box the first time: click **
 - Send the PDF to someone by email (straight through your own mail server, attached), or a note by text message, WhatsApp, Messenger or Teams
 - Keeps itself up to date automatically (checks at start and every 6 hours; you choose when to install)
 
-## What's new in 1.8.2
+## What's new in 1.8.3
 
-- New in Quick Read: Rotate Left, Rotate Right and Print buttons at the top of the page, next to the file buttons (also Ctrl+L, Ctrl+R, Ctrl+P and the right-click menu). Rotating turns a sideways scan so you can read or print it; it does not change the file, and the next PDF starts unrotated.
-- New: the date and size of the PDF you are looking at are shown at the top. On the Home tab, the Quick Read group has a new line, "This file:", with the date the file was last changed and its size. In Quick Read, a label at the top of the page shows the file's name, date and size, and changes with every PDF you flip to.
-- The date is the same "Date modified" that File Explorer shows, in the date and time style set in Windows. Click the label to open the folder in File Explorer with the PDF selected.
+- New: choose another folder to flip through without leaving Quick Read. Click the folder label at the bottom of the page (it now says "Change folder…"), or press F, pick a folder, and the first PDF in that folder appears right away. The arrows then go through the new folder.
+- The folder text in the Home tab's Quick Read group does the same when clicked, also when no PDF is open yet.
+- To see the current PDF in File Explorer, click the file label at the top of the page in Quick Read.
 
 See [CHANGELOG.md](CHANGELOG.md) for every version.
 

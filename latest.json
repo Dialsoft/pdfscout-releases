@@ -1,11 +1,11 @@
 {
-  "version": "1.8.2",
+  "version": "1.8.3",
   "published": "2026-11-22",
-  "notes": "\u2022 New in Quick Read: Rotate Left, Rotate Right and Print buttons at the top of the page, next to the file buttons (also Ctrl+L, Ctrl+R, Ctrl+P and the right-click menu). Rotating turns a sideways scan so you can read or print it; it does not change the file, and the next PDF starts unrotated.\n\u2022 New: the date and size of the PDF you are looking at are shown at the top. On the Home tab, the Quick Read group has a new line, \"This file:\", with the date the file was last changed and its size. In Quick Read, a label at the top of the page shows the file's name, date and size, and changes with every PDF you flip to.\n\u2022 The date is the same \"Date modified\" that File Explorer shows, in the date and time style set in Windows. Click the label to open the folder in File Explorer with the PDF selected.",
+  "notes": "\u2022 New: choose another folder to flip through without leaving Quick Read. Click the folder label at the bottom of the page (it now says \"Change folder\u2026\"), or press F, pick a folder, and the first PDF in that folder appears right away. The arrows then go through the new folder.\n\u2022 The folder text in the Home tab's Quick Read group does the same when clicked, also when no PDF is open yet.\n\u2022 To see the current PDF in File Explorer, click the file label at the top of the page in Quick Read.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/pdfscout-releases/main/PDFScout.exe",
-  "sha256": "63e0c98f625b4a13229064fddf22bad9cfc03b367b8f93541962871101c40e77",
-  "size": 4906496,
+  "sha256": "d5de3debad649d7cd25de6dc6833f230f4fea171a9f905f9b18a2763b177a8d1",
+  "size": 4912640,
   "setup": "https://raw.githubusercontent.com/Dialsoft/pdfscout-releases/main/PDFScout-Setup.exe",
-  "setup_sha256": "e5220b24189529bdca83df9b92cfaf39bdf6c0fd54d0196c34f1ceee7aa6eb72",
-  "setup_size": 7436150
+  "setup_sha256": "a678371adaaa60b5d0f8b50a575d1919d1b39c94be08429bebc27e7952978082",
+  "setup_size": 7437160
 }
