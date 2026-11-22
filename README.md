@@ -5,10 +5,10 @@ By Dialsoft LLC.
 
 ## Download
 
-PDF Scout 1.7.0 comes two ways. Both are the same program.
+PDF Scout 1.8.0 comes two ways. Both are the same program.
 
 - **[PDFScout-Setup.exe](https://github.com/Dialsoft/pdfscout-releases/raw/main/PDFScout-Setup.exe)** — the installer (7.1 MB). Adds PDF Scout to the Start menu and to Windows "Installed apps", with an uninstaller. It asks whether to install for **just you** (no administrator needed) or for **everyone who uses the PC** (asks for an administrator).
-- **[PDFScout.exe](https://github.com/Dialsoft/pdfscout-releases/raw/main/PDFScout.exe)** — the portable copy (4.6 MB). Nothing to install: put it somewhere like your Desktop, Downloads or `C:\Tools` (not Program Files, so it can keep itself up to date) and double-click it.
+- **[PDFScout.exe](https://github.com/Dialsoft/pdfscout-releases/raw/main/PDFScout.exe)** — the portable copy (4.7 MB). Nothing to install: put it somewhere like your Desktop, Downloads or `C:\Tools` (not Program Files, so it can keep itself up to date) and double-click it.
 
 Windows may show a blue "Windows protected your PC" box the first time: click **More info**, then **Run anyway**.
 
@@ -28,7 +28,7 @@ Windows may show a blue "Windows protected your PC" box the first time: click **
 - Ribbon with Home, Organize, Settings, Share and Help tabs, with color icons and detailed tooltips
 - Page panel: a small picture of every page down the right side; click one to jump to it
 - Rearrange pages: drag a page up or down in the page panel, then Save (or Save As to keep the original)
-- Quick Read (F11): flip through a folder's PDFs with the Left and Right arrow keys, like the Photos app
+- Quick Read (F11): flip through a folder's PDFs with the Left and Right arrow keys, like the Photos app, and move, rename or delete each file as you go
 - Delete pages: select a page and press Del, or right-click it in the page panel
 - Select several pages with Ctrl+click or Shift+click (or Ctrl+A) and move, delete or copy them all at once
 - Combine PDFs: open two PDFs in two PDF Scout windows and drag pages from one page panel into the other (drag copies, Shift+drag moves)
@@ -40,13 +40,13 @@ Windows may show a blue "Windows protected your PC" box the first time: click **
 - Send the PDF to someone by email (straight through your own mail server, attached), or a note by text message, WhatsApp, Messenger or Teams
 - Keeps itself up to date automatically (checks at start and every 6 hours; you choose when to install)
 
-## What's new in 1.7.0
+## What's new in 1.8.0
 
-- New: Quick Read. Press F11 (or Organize tab > Quick Read, or right-click the page) and flip through the PDFs in a folder the way the Photos app flips through pictures. The Right arrow key opens the next PDF in the same folder and the Left arrow key the previous one; or click the round arrows at the edges of the page.
-- In Quick Read the ribbon and the page panel step aside so the page gets the whole window, and each PDF is shown fitted to the window. Up / Down, Page Up / Page Down and the mouse wheel still move through the pages. Esc, F11 or the Exit button brings everything back the way it was.
-- Outside Quick Read, Ctrl+Right and Ctrl+Left jump to the next and previous PDF in the folder too.
-- The PDFs come in name order, the way File Explorer sorts names. The status bar shows where you are, such as "PDF 3 of 12 in this folder".
-- Pages that are narrower than the window (Fit Page, or zoomed out) now sit in the middle of the window instead of at its left edge.
+- New in Quick Read (F11): sort a folder as you flip through it. Buttons at the top left of the page act on the PDF file you are looking at: Move to Folder (M), Rename (F2) and Delete (Del). After a move or a delete the next PDF in the folder appears, so you can work through a whole pile without leaving the keyboard.
+- Move to Folder remembers the folder. After the first move a second button appears, Move to "that folder" (Shift+M), which files the next PDF there with one key and no questions.
+- Delete sends the PDF to the Recycle Bin, so it can be brought back. It asks first; Ctrl+Del deletes right away. Nothing is ever overwritten by a move or a rename: if the name is taken, you are offered "name (2).pdf".
+- Faster flipping in Quick Read: while you look at one PDF, the first page of the next and the previous PDF is drawn ahead of time, so it is on screen the moment you press the arrow. The PDF you just left is kept ready too, so going back is instant. This helps most with heavy files such as scans.
+- The same file commands are on the right-click menu in Quick Read, and every button has a tooltip.
 
 See [CHANGELOG.md](CHANGELOG.md) for every version.
 

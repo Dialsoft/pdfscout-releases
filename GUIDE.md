@@ -1,6 +1,6 @@
 # PDF Scout User Guide
 
-PDF Scout is a small, fast PDF reader for Windows from Dialsoft. It opens PDFs, finds and copies text, prints, and lets you move, delete and combine pages. This guide covers version 1.7.0.
+PDF Scout is a small, fast PDF reader for Windows from Dialsoft. It opens PDFs, finds and copies text, prints, and lets you move, delete and combine pages. This guide covers version 1.8.0.
 
 **Prefer to watch?** A three-minute narrated video tour covers the same ground, including an animated demonstration of combining two PDFs: [watch it on dialsoft.com](https://dialsoft.com/pdf-scout/#video).
 
@@ -107,7 +107,32 @@ While you're in Quick Read:
 - **Up / Down**, **Page Up / Page Down** and the mouse wheel still move through the pages of the PDF you're looking at.
 - The status bar shows where you are, such as "PDF 3 of 12 in this folder".
 - The PDFs come in name order, the way File Explorer sorts names (so "Invoice 2" comes before "Invoice 10").
-- Pages can't be moved or deleted. Leave Quick Read first.
+- The next and the previous PDF are made ready ahead of time while you look at the current one, so the next press of the arrow shows its first page right away. This matters most with heavy files such as scans.
+- Pages can't be moved or deleted. Leave Quick Read first. (In Quick Read the **Del** key deletes the *file*, after asking. See below.)
+
+#### Sorting a folder: move, rename or delete the PDF you're looking at
+
+Quick Read is also a quick way to tidy a folder. The buttons at the top left of the page act on the **file** you are looking at, and each has a key:
+
+![Quick Read's file buttons: Move to Folder, move to the same folder again, Rename and Delete](guide/21-quick-read-files.png)
+
+| Button | Key | What it does |
+|---|---|---|
+| **Move to Folder…** | M | Windows' folder window opens. Pick (or make) a folder and click **Move Here**. The PDF is moved there and the next PDF in the folder appears. |
+| **Move to "folder"** | Shift+M | Moves the PDF straight into the folder you used last time, with no questions. This button appears after your first move. |
+| **Rename** | F2 | Type a new name and press Enter. The .pdf ending is added for you. The PDF stays on screen. |
+| **Delete** | Del | Sends the PDF to the Recycle Bin and shows the next PDF. You are asked first. **Ctrl+Del** deletes right away without the question. |
+
+A typical way to work through a pile of scans: look at a PDF, then press **Right arrow** to keep it where it is, **Shift+M** to file it away, or **Del** to throw it out. The next PDF is on screen at once each time.
+
+Good to know:
+
+- **Nothing is ever overwritten.** If the folder already has a file with the same name, PDF Scout offers to move yours in as "name (2).pdf" so both are kept. Rename refuses a name that is already taken.
+- **Deleted PDFs go to the Recycle Bin**, so you can get one back if you change your mind. On drives that have no Recycle Bin (some network and USB drives) Windows warns you that the file would be gone for good, and you can still say no.
+- The folder you last moved a PDF to is remembered, also the next time you start PDF Scout.
+- The same commands are on the right-click menu while you're in Quick Read.
+- If you changed pages in the PDF and haven't saved, save first (Ctrl+S). Then you can move or rename it.
+- When the window is narrow the buttons use shorter words; the keys always work.
 
 **Without Quick Read**, **Ctrl+Right** and **Ctrl+Left** jump to the next and previous PDF in the folder too.
 
@@ -359,6 +384,10 @@ A copy installed for everyone on the PC asks for an administrator's permission e
 | F4 | Show or hide the side panel |
 | F11 | Quick Read on or off |
 | Left / Right arrow in Quick Read | Previous / next PDF in the folder |
+| M in Quick Read | Move the PDF file to a folder you pick |
+| Shift+M in Quick Read | Move the PDF file to the same folder as last time |
+| F2 in Quick Read | Rename the PDF file |
+| Del in Quick Read | Delete the PDF file (Recycle Bin); Ctrl+Del doesn't ask first |
 | Ctrl+Left / Ctrl+Right | Previous / next PDF in the folder (anytime) |
 | Alt+Up / Alt+Down | Move the selected page(s) earlier / later |
 | Alt+Home / Alt+End | Move the selected page(s) to the front / back |

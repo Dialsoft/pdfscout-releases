@@ -1,3 +1,10 @@
+## 1.8.0 (2026-11-22)
+- New in Quick Read (F11): sort a folder as you flip through it. Buttons at the top left of the page act on the PDF file you are looking at: Move to Folder (M), Rename (F2) and Delete (Del). After a move or a delete the next PDF in the folder appears, so you can work through a whole pile without leaving the keyboard.
+- Move to Folder remembers the folder. After the first move a second button appears, Move to "that folder" (Shift+M), which files the next PDF there with one key and no questions.
+- Delete sends the PDF to the Recycle Bin, so it can be brought back. It asks first; Ctrl+Del deletes right away. Nothing is ever overwritten by a move or a rename: if the name is taken, you are offered "name (2).pdf".
+- Faster flipping in Quick Read: while you look at one PDF, the first page of the next and the previous PDF is drawn ahead of time, so it is on screen the moment you press the arrow. The PDF you just left is kept ready too, so going back is instant. This helps most with heavy files such as scans.
+- The same file commands are on the right-click menu in Quick Read, and every button has a tooltip.
+
 ## 1.7.0 (2026-11-22)
 - New: Quick Read. Press F11 (or Organize tab > Quick Read, or right-click the page) and flip through the PDFs in a folder the way the Photos app flips through pictures. The Right arrow key opens the next PDF in the same folder and the Left arrow key the previous one; or click the round arrows at the edges of the page.
 - In Quick Read the ribbon and the page panel step aside so the page gets the whole window, and each PDF is shown fitted to the window. Up / Down, Page Up / Page Down and the mouse wheel still move through the pages. Esc, F11 or the Exit button brings everything back the way it was.

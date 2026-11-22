@@ -1,11 +1,11 @@
 {
-  "version": "1.7.0",
+  "version": "1.8.0",
   "published": "2026-11-22",
-  "notes": "\u2022 New: Quick Read. Press F11 (or Organize tab > Quick Read, or right-click the page) and flip through the PDFs in a folder the way the Photos app flips through pictures. The Right arrow key opens the next PDF in the same folder and the Left arrow key the previous one; or click the round arrows at the edges of the page.\n\u2022 In Quick Read the ribbon and the page panel step aside so the page gets the whole window, and each PDF is shown fitted to the window. Up / Down, Page Up / Page Down and the mouse wheel still move through the pages. Esc, F11 or the Exit button brings everything back the way it was.\n\u2022 Outside Quick Read, Ctrl+Right and Ctrl+Left jump to the next and previous PDF in the folder too.\n\u2022 The PDFs come in name order, the way File Explorer sorts names. The status bar shows where you are, such as \"PDF 3 of 12 in this folder\".\n\u2022 Pages that are narrower than the window (Fit Page, or zoomed out) now sit in the middle of the window instead of at its left edge.",
+  "notes": "\u2022 New in Quick Read (F11): sort a folder as you flip through it. Buttons at the top left of the page act on the PDF file you are looking at: Move to Folder (M), Rename (F2) and Delete (Del). After a move or a delete the next PDF in the folder appears, so you can work through a whole pile without leaving the keyboard.\n\u2022 Move to Folder remembers the folder. After the first move a second button appears, Move to \"that folder\" (Shift+M), which files the next PDF there with one key and no questions.\n\u2022 Delete sends the PDF to the Recycle Bin, so it can be brought back. It asks first; Ctrl+Del deletes right away. Nothing is ever overwritten by a move or a rename: if the name is taken, you are offered \"name (2).pdf\".\n\u2022 Faster flipping in Quick Read: while you look at one PDF, the first page of the next and the previous PDF is drawn ahead of time, so it is on screen the moment you press the arrow. The PDF you just left is kept ready too, so going back is instant. This helps most with heavy files such as scans.\n\u2022 The same file commands are on the right-click menu in Quick Read, and every button has a tooltip.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/pdfscout-releases/main/PDFScout.exe",
-  "sha256": "0bec0faf4f1d5d6bfbf107500ce7d5ea577ae2c059092388b1cf0fb0aa5402bb",
-  "size": 4850688,
+  "sha256": "ad6c40c2affdb7e915914283a6b8d1180758bfffc27cbfc33cf1afc34b5abdf0",
+  "size": 4888576,
   "setup": "https://raw.githubusercontent.com/Dialsoft/pdfscout-releases/main/PDFScout-Setup.exe",
-  "setup_sha256": "981504f5f69ca45f26af0c939da9bfdf4634491cac40e625afd427363ba91577",
-  "setup_size": 7413994
+  "setup_sha256": "ce279efb470cb4efe843517a3cce7c8947a4b8802c48cd3d7b858ea29ec16df9",
+  "setup_size": 7428884
 }
