@@ -108,6 +108,8 @@ Quick Read lets you go through the PDFs in a folder one after another, the way t
 
 ![The Quick Read group on the Home tab shows the folder that will be flipped through](guide/22-quick-read-folder.png)
 
+**The file's date and size.** The same two places tell you about the PDF you're looking at. On the Home tab, the line **This file:** shows the date the file was last changed and its size. In Quick Read, the label at the top of the page shows the file's name, date and size, and it changes with every PDF you flip to. The date is the "Date modified" that File Explorer shows.
+
 Click the folder in either place to open it in File Explorer with the PDF selected. A long folder path is shortened in the middle to fit; point at it to see the whole path. To use a different folder, open a PDF from that folder. In a narrow window the group makes room for the other Home buttons; the Quick Read button is always on the Organize tab too.
 
 While you're in Quick Read:
@@ -131,6 +133,8 @@ Quick Read is also a quick way to tidy a folder. The buttons at the top left of 
 | **Move to "folder"** | Shift+M | Moves the PDF straight into the folder you used last time, with no questions. This button appears after your first move. |
 | **Rename** | F2 | Type a new name and press Enter. The .pdf ending is added for you. The PDF stays on screen. |
 | **Delete** | Del | Sends the PDF to the Recycle Bin and shows the next PDF. You are asked first. **Ctrl+Del** deletes right away without the question. |
+
+Next to the file buttons are **Rotate** (two buttons, a quarter turn left or right; Ctrl+L and Ctrl+R) and **Print** (Ctrl+P). Rotate is for scans that came out sideways: it turns the pages on screen and on paper, but it does not change the file, and the next PDF you flip to starts unrotated again. Print opens Windows' Print window for the PDF you're looking at.
 
 A typical way to work through a pile of scans: look at a PDF, then press **Right arrow** to keep it where it is, **Shift+M** to file it away, or **Del** to throw it out. The next PDF is on screen at once each time.
 

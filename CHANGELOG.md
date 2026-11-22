@@ -1,3 +1,8 @@
+## 1.8.2 (2026-11-22)
+- New in Quick Read: Rotate Left, Rotate Right and Print buttons at the top of the page, next to the file buttons (also Ctrl+L, Ctrl+R, Ctrl+P and the right-click menu). Rotating turns a sideways scan so you can read or print it; it does not change the file, and the next PDF starts unrotated.
+- New: the date and size of the PDF you are looking at are shown at the top. On the Home tab, the Quick Read group has a new line, "This file:", with the date the file was last changed and its size. In Quick Read, a label at the top of the page shows the file's name, date and size, and changes with every PDF you flip to.
+- The date is the same "Date modified" that File Explorer shows, in the date and time style set in Windows. Click the label to open the folder in File Explorer with the PDF selected.
+
 ## 1.8.1 (2026-11-22)
 - New: a Quick Read group at the right end of the Home tab. It has the Quick Read button (F11) and, next to it, the folder Quick Read will flip through, with where you are in it, such as "PDF 3 of 12". Click the folder to open it in File Explorer with the PDF selected.
 - Inside Quick Read, a small label at the bottom of the page shows the same thing: the folder being flipped through and your place in it. Click it to open the folder in File Explorer.
