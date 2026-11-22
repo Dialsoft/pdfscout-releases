@@ -95,11 +95,20 @@ If the PDF has a password, PDF Scout asks for it.
 Quick Read lets you go through the PDFs in a folder one after another, the way the Photos app goes through pictures. It's the fast way to look through a folder of invoices, scans or statements.
 
 1. Open any PDF in the folder.
-2. Press **F11**. (Or click **Quick Read** on the Organize tab, or right-click the page and choose Quick Read.)
+2. Press **F11**. (Or click **Quick Read** at the right end of the Home tab or on the Organize tab, or right-click the page and choose Quick Read.)
 3. Press the **Right arrow** key for the next PDF in the folder, and the **Left arrow** key for the previous one. You can also click the round arrows at the left and right edges of the page.
 4. Press **Esc** (or F11 again, or click **Exit Quick Read** in the top right corner) when you're done. Everything comes back the way it was.
 
 ![Quick Read: the page fills the window, with an arrow at the edge for the next PDF](guide/20-quick-read.png)
+
+**Which folder is it using?** Quick Read always goes through the folder of the PDF you have open: that one folder, in name order, not the folders inside it. You can see the folder in two places:
+
+- On the **Home tab**, the **Quick Read** group at the right end shows the folder next to the Quick Read button, with your place in it, such as "PDF 3 of 12".
+- Inside Quick Read, a small label at the bottom of the page shows the same thing.
+
+![The Quick Read group on the Home tab shows the folder that will be flipped through](guide/22-quick-read-folder.png)
+
+Click the folder in either place to open it in File Explorer with the PDF selected. A long folder path is shortened in the middle to fit; point at it to see the whole path. To use a different folder, open a PDF from that folder. In a narrow window the group makes room for the other Home buttons; the Quick Read button is always on the Organize tab too.
 
 While you're in Quick Read:
 

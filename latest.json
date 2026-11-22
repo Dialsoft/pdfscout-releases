@@ -1,11 +1,11 @@
 {
-  "version": "1.8.0",
+  "version": "1.8.1",
   "published": "2026-11-22",
-  "notes": "\u2022 New in Quick Read (F11): sort a folder as you flip through it. Buttons at the top left of the page act on the PDF file you are looking at: Move to Folder (M), Rename (F2) and Delete (Del). After a move or a delete the next PDF in the folder appears, so you can work through a whole pile without leaving the keyboard.\n\u2022 Move to Folder remembers the folder. After the first move a second button appears, Move to \"that folder\" (Shift+M), which files the next PDF there with one key and no questions.\n\u2022 Delete sends the PDF to the Recycle Bin, so it can be brought back. It asks first; Ctrl+Del deletes right away. Nothing is ever overwritten by a move or a rename: if the name is taken, you are offered \"name (2).pdf\".\n\u2022 Faster flipping in Quick Read: while you look at one PDF, the first page of the next and the previous PDF is drawn ahead of time, so it is on screen the moment you press the arrow. The PDF you just left is kept ready too, so going back is instant. This helps most with heavy files such as scans.\n\u2022 The same file commands are on the right-click menu in Quick Read, and every button has a tooltip.",
+  "notes": "\u2022 New: a Quick Read group at the right end of the Home tab. It has the Quick Read button (F11) and, next to it, the folder Quick Read will flip through, with where you are in it, such as \"PDF 3 of 12\". Click the folder to open it in File Explorer with the PDF selected.\n\u2022 Inside Quick Read, a small label at the bottom of the page shows the same thing: the folder being flipped through and your place in it. Click it to open the folder in File Explorer.\n\u2022 A long folder path is shortened in the middle to fit; the tooltip shows all of it. In a narrow window the Home tab's Quick Read group makes room for the other buttons (the Quick Read button is always on the Organize tab too).",
   "exe": "https://raw.githubusercontent.com/Dialsoft/pdfscout-releases/main/PDFScout.exe",
-  "sha256": "ad6c40c2affdb7e915914283a6b8d1180758bfffc27cbfc33cf1afc34b5abdf0",
-  "size": 4888576,
+  "sha256": "021f53474cd185113c9270f3952d0b6f7b323389eb85f6bee2c9a32b195adb99",
+  "size": 4896256,
   "setup": "https://raw.githubusercontent.com/Dialsoft/pdfscout-releases/main/PDFScout-Setup.exe",
-  "setup_sha256": "ce279efb470cb4efe843517a3cce7c8947a4b8802c48cd3d7b858ea29ec16df9",
-  "setup_size": 7428884
+  "setup_sha256": "f5f30fcd6e36bd11ff38d33e6d2117141b0e93598799d65ec401c9bede7ab94f",
+  "setup_size": 7433432
 }

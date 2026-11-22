@@ -1,3 +1,8 @@
+## 1.8.1 (2026-11-22)
+- New: a Quick Read group at the right end of the Home tab. It has the Quick Read button (F11) and, next to it, the folder Quick Read will flip through, with where you are in it, such as "PDF 3 of 12". Click the folder to open it in File Explorer with the PDF selected.
+- Inside Quick Read, a small label at the bottom of the page shows the same thing: the folder being flipped through and your place in it. Click it to open the folder in File Explorer.
+- A long folder path is shortened in the middle to fit; the tooltip shows all of it. In a narrow window the Home tab's Quick Read group makes room for the other buttons (the Quick Read button is always on the Organize tab too).
+
 ## 1.8.0 (2026-11-22)
 - New in Quick Read (F11): sort a folder as you flip through it. Buttons at the top left of the page act on the PDF file you are looking at: Move to Folder (M), Rename (F2) and Delete (Del). After a move or a delete the next PDF in the folder appears, so you can work through a whole pile without leaving the keyboard.
 - Move to Folder remembers the folder. After the first move a second button appears, Move to "that folder" (Shift+M), which files the next PDF there with one key and no questions.

@@ -5,7 +5,7 @@ By Dialsoft LLC.
 
 ## Download
 
-PDF Scout 1.8.0 comes two ways. Both are the same program.
+PDF Scout 1.8.1 comes two ways. Both are the same program.
 
 - **[PDFScout-Setup.exe](https://github.com/Dialsoft/pdfscout-releases/raw/main/PDFScout-Setup.exe)** — the installer (7.1 MB). Adds PDF Scout to the Start menu and to Windows "Installed apps", with an uninstaller. It asks whether to install for **just you** (no administrator needed) or for **everyone who uses the PC** (asks for an administrator).
 - **[PDFScout.exe](https://github.com/Dialsoft/pdfscout-releases/raw/main/PDFScout.exe)** — the portable copy (4.7 MB). Nothing to install: put it somewhere like your Desktop, Downloads or `C:\Tools` (not Program Files, so it can keep itself up to date) and double-click it.
@@ -40,13 +40,11 @@ Windows may show a blue "Windows protected your PC" box the first time: click **
 - Send the PDF to someone by email (straight through your own mail server, attached), or a note by text message, WhatsApp, Messenger or Teams
 - Keeps itself up to date automatically (checks at start and every 6 hours; you choose when to install)
 
-## What's new in 1.8.0
+## What's new in 1.8.1
 
-- New in Quick Read (F11): sort a folder as you flip through it. Buttons at the top left of the page act on the PDF file you are looking at: Move to Folder (M), Rename (F2) and Delete (Del). After a move or a delete the next PDF in the folder appears, so you can work through a whole pile without leaving the keyboard.
-- Move to Folder remembers the folder. After the first move a second button appears, Move to "that folder" (Shift+M), which files the next PDF there with one key and no questions.
-- Delete sends the PDF to the Recycle Bin, so it can be brought back. It asks first; Ctrl+Del deletes right away. Nothing is ever overwritten by a move or a rename: if the name is taken, you are offered "name (2).pdf".
-- Faster flipping in Quick Read: while you look at one PDF, the first page of the next and the previous PDF is drawn ahead of time, so it is on screen the moment you press the arrow. The PDF you just left is kept ready too, so going back is instant. This helps most with heavy files such as scans.
-- The same file commands are on the right-click menu in Quick Read, and every button has a tooltip.
+- New: a Quick Read group at the right end of the Home tab. It has the Quick Read button (F11) and, next to it, the folder Quick Read will flip through, with where you are in it, such as "PDF 3 of 12". Click the folder to open it in File Explorer with the PDF selected.
+- Inside Quick Read, a small label at the bottom of the page shows the same thing: the folder being flipped through and your place in it. Click it to open the folder in File Explorer.
+- A long folder path is shortened in the middle to fit; the tooltip shows all of it. In a narrow window the Home tab's Quick Read group makes room for the other buttons (the Quick Read button is always on the Organize tab too).
 
 See [CHANGELOG.md](CHANGELOG.md) for every version.
 
