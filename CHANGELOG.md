@@ -1,3 +1,7 @@
+## 1.8.4 (2026-11-22)
+- Fixed: in Quick Read the Left and Right arrows sometimes seemed stuck and had to be pressed twice. A press made in the short moment while the next PDF was still opening behind its first page was being ignored. Every press now counts, also several quick presses in a row.
+- Holding an arrow key down still steps through the folder one PDF at a time, as fast as the PDFs can be opened.
+
 ## 1.8.3 (2026-11-22)
 - New: choose another folder to flip through without leaving Quick Read. Click the folder label at the bottom of the page (it now says "Change folder…"), or press F, pick a folder, and the first PDF in that folder appears right away. The arrows then go through the new folder.
 - The folder text in the Home tab's Quick Read group does the same when clicked, also when no PDF is open yet.

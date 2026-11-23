@@ -5,7 +5,7 @@ By Dialsoft LLC.
 
 ## Download
 
-PDF Scout 1.8.3 comes two ways. Both are the same program.
+PDF Scout 1.8.4 comes two ways. Both are the same program.
 
 - **[PDFScout-Setup.exe](https://github.com/Dialsoft/pdfscout-releases/raw/main/PDFScout-Setup.exe)** — the installer (7.1 MB). Adds PDF Scout to the Start menu and to Windows "Installed apps", with an uninstaller. It asks whether to install for **just you** (no administrator needed) or for **everyone who uses the PC** (asks for an administrator).
 - **[PDFScout.exe](https://github.com/Dialsoft/pdfscout-releases/raw/main/PDFScout.exe)** — the portable copy (4.7 MB). Nothing to install: put it somewhere like your Desktop, Downloads or `C:\Tools` (not Program Files, so it can keep itself up to date) and double-click it.
@@ -40,11 +40,10 @@ Windows may show a blue "Windows protected your PC" box the first time: click **
 - Send the PDF to someone by email (straight through your own mail server, attached), or a note by text message, WhatsApp, Messenger or Teams
 - Keeps itself up to date automatically (checks at start and every 6 hours; you choose when to install)
 
-## What's new in 1.8.3
+## What's new in 1.8.4
 
-- New: choose another folder to flip through without leaving Quick Read. Click the folder label at the bottom of the page (it now says "Change folder…"), or press F, pick a folder, and the first PDF in that folder appears right away. The arrows then go through the new folder.
-- The folder text in the Home tab's Quick Read group does the same when clicked, also when no PDF is open yet.
-- To see the current PDF in File Explorer, click the file label at the top of the page in Quick Read.
+- Fixed: in Quick Read the Left and Right arrows sometimes seemed stuck and had to be pressed twice. A press made in the short moment while the next PDF was still opening behind its first page was being ignored. Every press now counts, also several quick presses in a row.
+- Holding an arrow key down still steps through the folder one PDF at a time, as fast as the PDFs can be opened.
 
 See [CHANGELOG.md](CHANGELOG.md) for every version.
 
