@@ -1,11 +1,11 @@
 {
-  "version": "1.8.4",
+  "version": "1.8.5",
   "published": "2026-11-22",
-  "notes": "\u2022 Fixed: in Quick Read the Left and Right arrows sometimes seemed stuck and had to be pressed twice. A press made in the short moment while the next PDF was still opening behind its first page was being ignored. Every press now counts, also several quick presses in a row.\n\u2022 Holding an arrow key down still steps through the folder one PDF at a time, as fast as the PDFs can be opened.",
+  "notes": "\u2022 Fixed: clicking a round arrow in Quick Read about twice a second skipped some clicks. Windows reports two clicks close together as a \"double-click\", and the second click was being lost. Every click on the arrows now counts. The same goes for the Rotate buttons.\n\u2022 A double-click on Move, Rename, Delete or Print still counts only once, on purpose, so two files can never be moved or deleted by accident.",
   "exe": "https://raw.githubusercontent.com/Dialsoft/pdfscout-releases/main/PDFScout.exe",
-  "sha256": "28db34164a11622ad540e0bb66c676dd8cbb6b73f66b2fe418aa9ad1c9850866",
-  "size": 4913152,
+  "sha256": "31590ada6fff2b4e32f1c1c2f1a013f00d78738040c31776f81d1295937c8aa5",
+  "size": 4914688,
   "setup": "https://raw.githubusercontent.com/Dialsoft/pdfscout-releases/main/PDFScout-Setup.exe",
-  "setup_sha256": "169e82a9d2f92ee4da46ddd67fa716e72a9f35ba705841adb2f9f69188c7c63e",
-  "setup_size": 7438529
+  "setup_sha256": "13c41c753fb143f77074318c44a879c3289334172affa23a402bf16d1c86f6b1",
+  "setup_size": 7438477
 }

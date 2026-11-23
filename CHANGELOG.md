@@ -1,3 +1,7 @@
+## 1.8.5 (2026-11-22)
+- Fixed: clicking a round arrow in Quick Read about twice a second skipped some clicks. Windows reports two clicks close together as a "double-click", and the second click was being lost. Every click on the arrows now counts. The same goes for the Rotate buttons.
+- A double-click on Move, Rename, Delete or Print still counts only once, on purpose, so two files can never be moved or deleted by accident.
+
 ## 1.8.4 (2026-11-22)
 - Fixed: in Quick Read the Left and Right arrows sometimes seemed stuck and had to be pressed twice. A press made in the short moment while the next PDF was still opening behind its first page was being ignored. Every press now counts, also several quick presses in a row.
 - Holding an arrow key down still steps through the folder one PDF at a time, as fast as the PDFs can be opened.
