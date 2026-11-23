@@ -1,6 +1,6 @@
 # PDF Scout User Guide
 
-PDF Scout is a small, fast PDF reader for Windows from Dialsoft. It opens PDFs, finds and copies text, prints, and lets you move, delete and combine pages. This guide covers version 1.8.0.
+PDF Scout is a small, fast PDF reader for Windows from Dialsoft. It opens PDFs, finds and copies text, prints, and lets you move, delete and combine pages. This guide covers version 1.8.5.
 
 **Prefer to watch?** A three-minute narrated video tour covers the same ground, including an animated demonstration of combining two PDFs: [watch it on dialsoft.com](https://dialsoft.com/pdf-scout/#video).
 
@@ -110,7 +110,9 @@ Quick Read lets you go through the PDFs in a folder one after another, the way t
 
 **The file's date and size.** The same two places tell you about the PDF you're looking at. On the Home tab, the line **This file:** shows the date the file was last changed and its size. In Quick Read, the label at the top of the page shows the file's name, date and size, and it changes with every PDF you flip to. The date is the "Date modified" that File Explorer shows.
 
-Click the folder in either place to open it in File Explorer with the PDF selected. A long folder path is shortened in the middle to fit; point at it to see the whole path. To use a different folder, open a PDF from that folder. In a narrow window the group makes room for the other Home buttons; the Quick Read button is always on the Organize tab too.
+**Changing to another folder.** Click the folder in either place (in Quick Read you can also press **F**). Windows' folder window opens. Pick the folder you want and click **Use This Folder**. The first PDF in that folder appears right away, and the arrows now go through the new folder. Nothing is changed in either folder. Opening a PDF from another folder (Ctrl+O) switches folders too.
+
+A long folder path is shortened in the middle to fit; point at it to see the whole path. To see the PDF in File Explorer, click the file label at the top of the page in Quick Read. In a narrow window the group makes room for the other Home buttons; the Quick Read button is always on the Organize tab too.
 
 While you're in Quick Read:
 
@@ -400,6 +402,7 @@ A copy installed for everyone on the PC asks for an administrator's permission e
 | M in Quick Read | Move the PDF file to a folder you pick |
 | Shift+M in Quick Read | Move the PDF file to the same folder as last time |
 | F2 in Quick Read | Rename the PDF file |
+| F in Quick Read | Choose another folder to flip through |
 | Del in Quick Read | Delete the PDF file (Recycle Bin); Ctrl+Del doesn't ask first |
 | Ctrl+Left / Ctrl+Right | Previous / next PDF in the folder (anytime) |
 | Alt+Up / Alt+Down | Move the selected page(s) earlier / later |

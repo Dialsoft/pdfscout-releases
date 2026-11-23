@@ -28,7 +28,7 @@ Windows may show a blue "Windows protected your PC" box the first time: click **
 - Ribbon with Home, Organize, Settings, Share and Help tabs, with color icons and detailed tooltips
 - Page panel: a small picture of every page down the right side; click one to jump to it
 - Rearrange pages: drag a page up or down in the page panel, then Save (or Save As to keep the original)
-- Quick Read (F11): flip through a folder's PDFs with the Left and Right arrow keys, like the Photos app, and move, rename or delete each file as you go
+- Quick Read (F11): flip through a folder's PDFs with the Left and Right arrow keys, like the Photos app, and move, rename, delete, rotate or print each file as you go; switch folders without leaving
 - Delete pages: select a page and press Del, or right-click it in the page panel
 - Select several pages with Ctrl+click or Shift+click (or Ctrl+A) and move, delete or copy them all at once
 - Combine PDFs: open two PDFs in two PDF Scout windows and drag pages from one page panel into the other (drag copies, Shift+drag moves)
